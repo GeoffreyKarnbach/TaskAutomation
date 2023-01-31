@@ -51,7 +51,7 @@ It is possible for the user to use several files/modules, for instance a file ca
 
 > python3 terminate.py
 
-### How to start the program
+### How to start the program using SSH on a remote machine
 
 > tmux
 > <br>
