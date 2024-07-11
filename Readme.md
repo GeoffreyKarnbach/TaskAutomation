@@ -1,5 +1,7 @@
 # <u>Task Automation Tool</u>
 
+Schedule your python scripts in a reliable way. No more cronjobs!
+
 ## <u> Usage of the tool</u>
 
 Often, it is very usefull to be able to execute a same task every day/hour, in a repeated way, in order to backup data for instance or mesure values. The "Task Automation Tool" is meant to be run on a computer, that is powered on 24/7. <br><br>
