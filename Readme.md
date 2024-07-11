@@ -49,6 +49,16 @@ It is possible for the user to use several files/modules, for instance a file ca
 
 > import Tasks.TASKNAME.module1 as module1
 
+### Example task 1: "SpotifyBackup"
+
+This sample task (that I had in use for over a year on my local instance), allows the user to regurlarly (for instance once a day) make a backup of all songs inside of the "Liked Songs Playlist" and the "Mix of the week". Through this approach, songs can be persisted (as the Mix of the Week is deleted at the start of each week and replaced with new songs). 
+
+The main task is in the main function (execute subfunction), and allows the user to replace the "PLAYLIST_SHARE_LINK" by his own link for any playlist (for instance the Mix of the Week). 
+
+The configuration of the Task in the "config.ini" file indicates that the Task should be run every 24 hours, but between the time of 2 to 4 AM (to ensure to use the internet when least used in the day on average). Furthermore, the task is active, not in test mode and does not run on startup of the Task Automation tool.
+
+All the dependencies required by python are located in the "requirements.txt" file, which are automatically installed by the Task Automation tool.
+
 ### How to terminate the program (for maintenance for instance)
 
 > python3 terminate.py
